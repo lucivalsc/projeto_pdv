@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<TfrxReport Version="6.9.15" DotMatrixReport="False" IniFile="\Software\Fast Reports" PreviewOptions.Buttons="167935" PreviewOptions.Zoom="1" PrintOptions.Printer="Default" PrintOptions.PrintOnSheet="0" ReportOptions.CreateDate="44615,4555189005" ReportOptions.Description.Text="" ReportOptions.LastChange="44615,5000985532" ScriptLanguage="PascalScript" ScriptText.Text="begin&#13;&#10;&#13;&#10;end.">
+  <Datasets>
+    <item DataSet="frxDBDataset1" DataSetName="frxDBDataset1"/>
+  </Datasets>
+  <TfrxDataPage Name="Data" HGuides.Text="" VGuides.Text="" Height="1000" Left="0" Top="0" Width="1000"/>
+  <TfrxReportPage Name="Page1" HGuides.Text="" VGuides.Text="" PaperWidth="210" PaperHeight="297" PaperSize="256" LeftMargin="10" RightMargin="10" TopMargin="10" BottomMargin="10" ColumnWidth="0" ColumnPositions.Text="" Frame.Typ="0" MirrorMode="0">
+    <TfrxReportTitle Name="ReportTitle1" FillType="ftBrush" FillGap.Top="0" FillGap.Left="0" FillGap.Bottom="0" FillGap.Right="0" Frame.Typ="0" Height="22,67718" Left="0" Top="18,89765" Width="718,1107">
+      <TfrxMemoView Name="Memo3" AllowVectorExport="True" Left="3,77953" Top="0" Width="94,48825" Height="18,89765" DataSet="frxDBDataset1" DataSetName="frxDBDataset1" Frame.Typ="0" WordWrap="False" Text="Código"/>
+      <TfrxMemoView Name="Memo4" AllowVectorExport="True" Left="98,26778" Top="0" Width="381,73253" Height="18,89765" DataSet="frxDBDataset1" DataSetName="frxDBDataset1" Frame.Typ="0" WordWrap="False" Text="Descrição"/>
+      <TfrxMemoView Name="Memo5" IndexTag="1" AllowVectorExport="True" Left="480,00031" Top="0" Width="79,37013" Height="18,89765" DataSet="frxDBDataset1" DataSetName="frxDBDataset1" Frame.Typ="0" WordWrap="False" Text="Qtde"/>
+      <TfrxMemoView Name="Memo6" IndexTag="1" AllowVectorExport="True" Left="559,37044" Top="0" Width="79,37013" Height="18,89765" DataSet="frxDBDataset1" DataSetName="frxDBDataset1" Frame.Typ="0" WordWrap="False" Text="Vlr Unit."/>
+      <TfrxMemoView Name="Memo7" IndexTag="1" AllowVectorExport="True" Left="638,74057" Top="0" Width="79,37013" Height="18,89765" DataSet="frxDBDataset1" DataSetName="frxDBDataset1" Frame.Typ="0" WordWrap="False" Text="Vlr total"/>
+    </TfrxReportTitle>
+    <TfrxMasterData Name="MasterData1" FillType="ftBrush" FillGap.Top="0" FillGap.Left="0" FillGap.Bottom="0" FillGap.Right="0" Frame.Typ="0" Height="22,67718" Left="0" Top="102,04731" Width="718,1107" ColumnWidth="0" ColumnGap="0" DataSet="frxDBDataset1" DataSetName="frxDBDataset1" RowCount="0">
+      <TfrxMemoView Name="Memo1" AllowVectorExport="True" Left="3,77953" Top="0" Width="94,48825" Height="18,89765" DataField="Codigo" DataSet="frxDBDataset1" DataSetName="frxDBDataset1" Frame.Typ="0" WordWrap="False" Text="[frxDBDataset1.&#34;Codigo&#34;]"/>
+      <TfrxMemoView Name="Memo2" AllowVectorExport="True" Left="98,26778" Top="0" Width="381,73253" Height="18,89765" DataField="Descricao" DataSet="frxDBDataset1" DataSetName="frxDBDataset1" Frame.Typ="0" WordWrap="False" Text="[frxDBDataset1.&#34;Descricao&#34;]"/>
+      <TfrxMemoView Name="frxDBDataset1Quantidade" IndexTag="1" AllowVectorExport="True" Left="480,00031" Top="0" Width="79,37013" Height="18,89765" DataField="Quantidade" DataSet="frxDBDataset1" DataSetName="frxDBDataset1" Frame.Typ="0" WordWrap="False" Text="[frxDBDataset1.&#34;Quantidade&#34;]"/>
+      <TfrxMemoView Name="frxDBDataset1ValorUnitario" IndexTag="1" AllowVectorExport="True" Left="559,37044" Top="0" Width="79,37013" Height="18,89765" DataField="ValorUnitario" DataSet="frxDBDataset1" DataSetName="frxDBDataset1" Frame.Typ="0" WordWrap="False" Text="[frxDBDataset1.&#34;ValorUnitario&#34;]"/>
+      <TfrxMemoView Name="frxDBDataset1ValorTotal" IndexTag="1" AllowVectorExport="True" Left="638,74057" Top="0" Width="79,37013" Height="18,89765" DataField="ValorTotal" DataSet="frxDBDataset1" DataSetName="frxDBDataset1" Frame.Typ="0" WordWrap="False" Text="[frxDBDataset1.&#34;ValorTotal&#34;]"/>
+    </TfrxMasterData>
+  </TfrxReportPage>
+</TfrxReport>
